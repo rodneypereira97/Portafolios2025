@@ -17,10 +17,9 @@ function About() {
         >
           <h2 className="text-4xl font-bold text-gray-800 mb-4 dark:text-white">Sobre mí</h2>
 
-          <p className="text-xl text-gray-700 dark:text-gray-300">
-            Soy un desarrollador web apasionado por crear soluciones creativas e interactivas. Domino tecnologías como <span className="font-semibold text-blue-600 dark:text-blue-400">React</span>, <span className="font-semibold text-yellow-600 dark:text-yellow-400">JavaScript</span>, <span className="font-semibold text-blue-700 dark:text-blue-300">AJAX</span>, <span className="font-semibold text-purple-700 dark:text-purple-300">PHP</span> y <span className="font-semibold text-green-700 dark:text-green-300">MySQL</span>. También trabajo con frameworks modernos como <span className="font-semibold text-red-600 dark:text-red-400">Laravel</span> y <span className="font-semibold text-green-600 dark:text-green-400">Node.js</span> para crear aplicaciones robustas y escalables.
+          <p className="text-lg text-gray-600 leading-relaxed">
+               Soy un desarrollador web apasionado por crear soluciones creativas e interactivas. Domino tecnologías como <span className="font-semibold text-blue-600 dark:text-blue-400">React</span>, <span className="font-semibold text-yellow-600 dark:text-yellow-400">JavaScript</span>, <span className="font-semibold text-blue-700 dark:text-blue-300">AJAX</span>, <span className="font-semibold text-purple-700 dark:text-purple-300">PHP</span> y <span className="font-semibold text-green-700 dark:text-green-300">MySQL</span>. También trabajo con frameworks modernos como <span className="font-semibold text-red-600 dark:text-red-400">Laravel</span> y <span className="font-semibold text-green-600 dark:text-green-400">Node.js</span> para crear aplicaciones robustas y escalables.
           </p>
-
           <a
             href="/RodneyCV.pdf"
             download
@@ -37,9 +36,9 @@ function About() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative group w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden shadow-2xl ring-4 ring-blue-500/30 transition-transform hover:scale-105">
+          <div className="relative group w-56 h-72 sm:w-56 sm:h-72 rounded-full overflow-hidden shadow-2xl ring-4 ring-blue-500/30 transition-transform hover:scale-105">
             <img
-              src="/rodney.jpg"
+              src={`${import.meta.env.BASE_URL}rodney2.jpeg`}
               alt="Rodney"
               className="object-cover w-full h-full"
             />

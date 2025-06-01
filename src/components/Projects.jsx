@@ -7,13 +7,17 @@ function Projects() {
       title: "Proyecto Carrusel",
       description: "Es un carrusel de menús interactivo y responsivo.",
       link: "https://rodneypereira97.github.io/carrusel/",
-      image: "/rodney.jpg",
-      tech: [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />],
+      image: `${import.meta.env.BASE_URL}carrusel.png`,
+      tech: [
+      <FaHtml5 className="text-orange-600"/>,
+      <FaCss3Alt />, 
+      <SiJavascript className="text-yellow-500"/>],
     },
     {
-      title: "Sistema en Laravel",
-      description: "Sistema web con autenticación, gestión y reportes.",
-      image: "/rodney.jpg",
+      title: "App para una Barberia",
+      description: "Sistema web con Login, gestión y calendarios de citas.",
+      link: "https://app-barberia-production-4196.up.railway.app/citas",
+      image: `${import.meta.env.BASE_URL}calendario.png`,
       tech: [<FaLaravel />, <SiMysql />, <FaPhp />],
     },
     {
@@ -25,8 +29,8 @@ function Projects() {
   ];
 
   return (
-    <section id="proyects" className="py-16 px-6 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
-      <h2 className="text-4xl font-bold text-center mb-12">🚀 Mis Proyectos</h2>
+    <section id="projects" className="py-16 px-6 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
+      <h2 className="text-4xl font-bold text-center mb-12">Mis Proyectos</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div
@@ -43,7 +47,7 @@ function Projects() {
             <div className="p-6">
               <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4">{project.description}</p>
-              <div className="flex space-x-3 text-2xl mb-4">
+              <div className="flex space-x-3 text-2xl flex items-center justify-center h-16 mb-4">
                 {project.tech.map((Icon, i) => (
                   <span key={i} className="text-blue-500 dark:text-blue-300">{Icon}</span>
                 ))}

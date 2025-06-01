@@ -2,7 +2,7 @@ import CountUp from "react-countup";
 
 function Stats() {
   return (
-    <section className="bg-gray-100 dark:bg-gray-900/80 text-gray-900 dark:text-white py-12 px-6">
+    <section className="bg-gray-100 dark:bg-gray-900/80 text-gray-900 dark:text-white text-center py-12 px-6">
       <div className="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8">
         <div>
           <h3 className="text-4xl font-bold text-blue-600">
