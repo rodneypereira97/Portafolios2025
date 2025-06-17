@@ -21,7 +21,7 @@ function About() {
                Soy un desarrollador web apasionado por crear soluciones creativas e interactivas. Domino tecnologías como <span className="font-semibold text-blue-600 dark:text-blue-400">React</span>, <span className="font-semibold text-yellow-600 dark:text-yellow-400">JavaScript</span>, <span className="font-semibold text-blue-700 dark:text-blue-300">AJAX</span>, <span className="font-semibold text-purple-700 dark:text-purple-300">PHP</span> y <span className="font-semibold text-green-700 dark:text-green-300">MySQL</span>. También trabajo con frameworks modernos como <span className="font-semibold text-red-600 dark:text-red-400">Laravel</span> y <span className="font-semibold text-green-600 dark:text-green-400">Node.js</span> para crear aplicaciones robustas y escalables.
           </p>
           <a
-            href="/RodneyCV.pdf"
+            href="CVRodney_Pereira.pdf"
             download
             className="inline-block mt-6 bg-blue-600 text-white px-6 py-2 rounded-full shadow-md hover:bg-blue-700 transition"
           >

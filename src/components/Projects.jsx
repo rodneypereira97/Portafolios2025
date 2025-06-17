@@ -18,14 +18,23 @@ function Projects() {
       description: "Sistema web con Login, gestión y calendarios de citas.",
       link: "https://app-barberia-production-4196.up.railway.app/citas",
       image: `${import.meta.env.BASE_URL}calendario.png`,
-      tech: [<FaLaravel />, <SiMysql />, <FaPhp />],
+      tech: [
+        <FaLaravel className="text-red-600"/>, 
+        <SiJavascript className="text-yellow-500"/>, 
+        <SiMysql className="text-blue-600"/>, 
+        <FaPhp className="text-indigo-600"/>],
     },
     {
       title: "Sistema Integral de Ventas y Gestión de Clientes con Reportes",
       description: "Una plataforma de Gestión de Ventas, Stock y Reportes Personalizados para Comercios",
       link: "https://ventas-app-production.up.railway.app/",
       image: `${import.meta.env.BASE_URL}sistema_ventas.png`,
-      tech: [<FaReact />, <FaNodeJs />, <SiMysql />],
+      tech: [
+      <FaLaravel className="text-red-600"/>, 
+      <SiJavascript className="text-yellow-500"/>, 
+      <SiMysql className="text-blue-600"/>, 
+      <FaPhp className="text-indigo-600"/>
+      ],
     },
   ];
 
