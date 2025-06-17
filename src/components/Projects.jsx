@@ -21,9 +21,10 @@ function Projects() {
       tech: [<FaLaravel />, <SiMysql />, <FaPhp />],
     },
     {
-      title: "App en React + Node.js",
-      description: "Una SPA con API REST usando Node.js y React.",
-      image: "/rodney.jpg",
+      title: "Sistema Integral de Ventas y Gestión de Clientes con Reportes",
+      description: "Una plataforma de Gestión de Ventas, Stock y Reportes Personalizados para Comercios",
+      link: "https://ventas-app-production.up.railway.app/",
+      image: `${import.meta.env.BASE_URL}sistema_ventas.png`,
       tech: [<FaReact />, <FaNodeJs />, <SiMysql />],
     },
   ];
